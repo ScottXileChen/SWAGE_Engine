@@ -1,0 +1,14 @@
+{
+  "Components": {
+    "TransformComponent": {
+      "Position": [ 0, 0, 0 ]
+    },
+    "SpawnerComponent": {
+      "Template File Name": "../../Assets/Templates/Maria.json",
+      "Spawn Object Name": "Maria",
+      "Spawn Count": 1,
+      "Spawn Wait Time": 2,
+      "Max Count" : 6
+    }
+  }
+}

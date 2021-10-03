@@ -1,0 +1,17 @@
+{
+  "Components": {
+    "TransformComponent": {
+      "Position": [ 0, 0, 0 ]
+    },
+    "ColliderComponent": {
+      "Center": [ 0, 0, 0 ],
+      "Extend": [ 1, 1, 1 ]
+    },
+    "ModelComponent": {
+      "File Name": "../../Assets/Models/Archer/archer.model"
+    },
+    "AnimatorComponent": {
+
+    }
+  }
+}

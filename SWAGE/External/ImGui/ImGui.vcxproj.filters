@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Inc">
+      <UniqueIdentifier>{979027fc-a5ce-45e0-be0c-9a1d867d7f38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src">
+      <UniqueIdentifier>{860fc881-d69b-473c-bec9-9f2522f1fde2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inc\AppLog">
+      <UniqueIdentifier>{f2ef889a-144d-44fa-bbff-c9c1dfd3d3a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inc\ImPlot">
+      <UniqueIdentifier>{329edeaf-065d-4c2c-8571-a4f7d34ee28c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\ImPlot">
+      <UniqueIdentifier>{59623e08-3be6-44cb-b49c-ce9e17d3c719}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Inc\imconfig.h">
+      <Filter>Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\imgui.h">
+      <Filter>Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\imgui_impl_dx11.h">
+      <Filter>Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\imgui_impl_win32.h">
+      <Filter>Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\imgui_internal.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\imstb_rectpack.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\imstb_textedit.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\imstb_truetype.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="AppLog.h">
+      <Filter>Inc\AppLog</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\ImPlot.h">
+      <Filter>Inc\ImPlot</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Src\imgui.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\imgui_demo.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\imgui_draw.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\imgui_impl_dx11.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\imgui_impl_win32.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\imgui_widgets.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\ImPlot.cpp">
+      <Filter>Src\ImPlot</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

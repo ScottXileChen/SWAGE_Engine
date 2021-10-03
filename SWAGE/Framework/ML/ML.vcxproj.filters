@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Inc">
+      <UniqueIdentifier>{fedded5e-8d3d-49e1-ada9-062f6e9c5a78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src">
+      <UniqueIdentifier>{4a839a0a-ec3a-43f3-a675-f6d96bfdb1d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Pch">
+      <UniqueIdentifier>{6e5e068e-2cc9-42b8-9f92-c84807f06488}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inc\Datasets">
+      <UniqueIdentifier>{705e5dc7-7f2e-43ce-869c-8fec314f49fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inc\LinearModel">
+      <UniqueIdentifier>{cc347c67-dba0-49ae-99bc-e248b8474b4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Datasets">
+      <UniqueIdentifier>{ac0a174f-793e-47ff-82e7-6c20ee009e90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\LinearModel">
+      <UniqueIdentifier>{c5f035f1-76be-4d15-809f-41409df9e93b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inc\Cluster">
+      <UniqueIdentifier>{3d2decf0-25d9-4acd-a92c-31c7428e8ea3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Cluster">
+      <UniqueIdentifier>{26e7f37c-f2b1-4e35-8ab4-790f468a33fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inc\ANN">
+      <UniqueIdentifier>{b018cee3-8017-47de-864a-d51e1b8390e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\ANN">
+      <UniqueIdentifier>{1dd481b2-ac88-4974-aae8-0043f2820903}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inc\GA">
+      <UniqueIdentifier>{3f030086-1296-491c-a829-9d6680eeb888}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\GA">
+      <UniqueIdentifier>{d98e9b81-0912-47c6-be42-f9b124218964}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inc\NEAT">
+      <UniqueIdentifier>{cc99c44b-8243-4927-8a85-732998cd54d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\NEAT">
+      <UniqueIdentifier>{270d0799-df6d-42a3-bcd4-3d9cd293bbc2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Inc\Common.h">
+      <Filter>Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\ML.h">
+      <Filter>Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Precompiled.h">
+      <Filter>Src\Pch</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Datasets.h">
+      <Filter>Inc\Datasets</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\LinearRegression.h">
+      <Filter>Inc\LinearModel</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\LogisticRegression.h">
+      <Filter>Inc\LinearModel</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\KMeans.h">
+      <Filter>Inc\Cluster</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\NeuralNetwork.h">
+      <Filter>Inc\ANN</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\GeneticAlgorithm.h">
+      <Filter>Inc\GA</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Config.h">
+      <Filter>Inc\NEAT</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Genome.h">
+      <Filter>Inc\NEAT</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\InnovationContainer.h">
+      <Filter>Inc\NEAT</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\NeuralNet.h">
+      <Filter>Inc\NEAT</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Population.h">
+      <Filter>Inc\NEAT</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Species.h">
+      <Filter>Inc\NEAT</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Src\Precompiled.cpp">
+      <Filter>Src\Pch</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Datasets.cpp">
+      <Filter>Src\Datasets</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\LinearRegression.cpp">
+      <Filter>Src\LinearModel</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\LogisticRegression.cpp">
+      <Filter>Src\LinearModel</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\KMeans.cpp">
+      <Filter>Src\Cluster</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\NeuralNetwork.cpp">
+      <Filter>Src\ANN</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\GeneticAlgorithm.cpp">
+      <Filter>Src\GA</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\InnovationContainer.cpp">
+      <Filter>Src\NEAT</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\NeuralNet.cpp">
+      <Filter>Src\NEAT</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Population.cpp">
+      <Filter>Src\NEAT</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

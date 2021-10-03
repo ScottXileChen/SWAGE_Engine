@@ -1,0 +1,14 @@
+{
+  "Components": {
+    "TransformComponent": {
+      "Position": [ 0, 0, 0 ]
+    },
+    "ColliderComponent": {
+      "Center": [ 0, 0, 0 ],
+      "Extend": [ 1, 1, 1 ]
+    },
+    "WeaponComponent": {
+      "Move Speed": 10
+    }
+  }
+}
